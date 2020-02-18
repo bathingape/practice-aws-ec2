@@ -1,10 +1,11 @@
 module.exports = {
   development: {
-    username: 'root',
-    password: 'yourpasswordhere',
-    database: 'shortly',
-    host: 'localhost',
-    dialect: 'mysql',
+    username: "codestates",
+    password: "codestates",
+    database: "practice_database",
+    host: "practice-rds.cqft1qlgkjys.ap-northeast-2.rds.amazonaws.com",
+    dialect: "mysql",
+    port: 13308,
     logging: false
   }
 };
